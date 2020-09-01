@@ -11,7 +11,6 @@ public class BaseFragment extends Fragment {
 
     public ProgressDialog mProgressDialog;
 
-
     public void showCustomToastFrag(final String message) {
         Toast.makeText(getActivity(), message, Toast.LENGTH_SHORT).show();
     }
